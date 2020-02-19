@@ -1,0 +1,68 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.text{
+	width: 100%;
+	position: relative;
+}
+.text h1{
+	font-size: 60px;
+	font-family: fantasy;
+	letter-spacing: 3px;
+}
+.text .line{
+	position: absolute;
+	bottom: 0px;
+	left:45%;
+	width: 120px;
+	height: 1px;
+	background-color: black;
+}
+
+.navsocial{
+	margin-left: 15px;
+}
+a:hover{
+	color:green !important;
+	transition: 0.5s;
+}
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+.zoom:hover{
+	transform: scale(1.1);
+	transition: 0.5s !important;
+
+
+}
+.zoom1:hover{
+	transform: scale(1.07);
+	transition: 1s;
+}
+.galborder{
+	border: none;
+}
+
+
+
+nav{
+	animation: anime 1.5s forwards;
+}
+
+@keyframes anime{
+	0%{
+		position: relative;
+		top:-100px;
+	
+	}
+	100%{
+		position: relative;
+		top: 0px;	
+			
+	}
+}
+
+
+
